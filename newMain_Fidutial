@@ -130,10 +130,13 @@ void setup() {
 
   Wire.endTransmission();
 
+  delay(1000);
+
 
 
   Serial2.write(restartByte);
   Serial3.write(restartByte);
+  delay(10);
 
   
 }
